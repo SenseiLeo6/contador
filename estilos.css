@@ -24,7 +24,7 @@ h1 {
     
 }
 
-.countdown {
+.contador {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
@@ -34,9 +34,9 @@ h1 {
 .time {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
-    margin: 0 1rem;
-    border-radius: 10px;
-    width: 70%;
+    border-radius: 35px;
+    height: 50px;
+    width: 30%;
 }
 
 .time span {
@@ -44,14 +44,15 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
     color: #141314;
-    width: 70%;
+   
+  
 }
 
 .time p {
     font-size: 1rem;
     letter-spacing: 0.1rem;
     color: #0b0c0c;
-    width: 70%;
+
 }
 
 .social-media a {
@@ -80,8 +81,9 @@ h1 {
         width: 50%;
     }
 }
-@media (min-width: 600px) {
-    .time {
-        width: 90%;
+@media (max-width: 600px) {
+    .contador {
+        font-size: 1.5rem;
+        padding: 10px;
     }
 }
